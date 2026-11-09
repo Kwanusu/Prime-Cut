@@ -1,47 +1,71 @@
-# This is a heading !
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
---- 
-This is a paragraph
+# Great Cut
 
-This ia another paragraph
+> Fresh cuts, booked in seconds.
 
-**this is bold text**
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![HTML5](https://img.shields.io/badge/HTML5-semantic-e34f26?logo=html5&logoColor=white)
 
-*Italic text*
+**Great Cut** is an online booking system for barber services. Customers browse services and barbers, pick an open time and book an appointment in seconds. Barbers manage schedules, availability and bookings from one dashboard.
 
-__bold__
+**Live site** | https://kwanusu.github.io/Prime-Cut/
 
-_italic_
+![Great Cut Home Page](assets/logo.jpg)
 
-> "Fresh Cuts, booked in seconds"
+## Table of Contents
 
-![logo](assets/logo.jpg)
+- [The problem we're solving](#the-problem-were-solving)
+- [Features](#features)
+- [Quick start](#quick-start)
+- [How to use this software](#how-to-use)
+
+## The problem we're solving
+
+> "Customers call to book, but we're busy cutting hair, so calls go unattended. people walk in, see five people
+> waiting and leave. Meanwhile at 2 pm my barbers sit idle. We keep booking in a paper diary and end up with double booking every week."
+> **Joseph, owner, Great Cut Barbershop, Kilimani, Nairobi**
+
+## Features
+
+**For Customers**
+- Browse **Services** with prices (KES) and durations, and **barbers** with their speciality.
+- Click a chair on the **shop floor plan**
+
+** For Barbershops** 
+- **Dashboard** with today's stats, schedules (status badges), weekly availability and an update-hours form.
+
+**Everywhere**
+- Mobile-first, responsive system
+- **Dark Mode** toggle (remembers your choice)
+
+## Quick Start
+
+### Requirements
+
+| Tool | Why | Check it works |
+| --- | --- | --- |
+| A modern browser (Chrome, Edge, Firefox) | View the site | Open any web page |
+| [VS Code](https://code.visualstudio.com) + **Live Server** extension | Edit and auto-reload | `git --version` |
+
+### Installation
 
 ```bash
-git clone https://github.com/Kwanusu/great-cut.git
-cd great-cut
+# 1. Get the code
+git clone https://github.com/Kwanusu/Prime-Cut.git/
+cd Prime-Cut
+
+# Open in vs code
+code .
 ```
+3. In VS Code, right-click `index.html` and choose **Open with Live Sever**
+4. **You should see** the Great Cut home  page at `http://127.0.0.1:5000`. Try booking a cut on the `book.html`.
 
-[Github](https://github.com/Kwanusu)
+## Collaboration
 
-## Pages
+1. Make a fork of the repository
 
-| Page | Purpose |
-|--- | --- |
-| Home | Hero, how it works, popular services, shop tour video, opening hours |
-| Services | price list Table and what each service includes |
+2. Create a feature branch `git branch -b feature-branch`
 
-## Lists
+3. Make changes and push to the branch.
 
-- **barber Profiles** 
-- **Booking Form**
+4. Go to github and create a pull request
 
-## Ordered Lists 
-1. Item one
-2. Item two
-
-<!-- this is a comment -->
